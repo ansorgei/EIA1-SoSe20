@@ -1,0 +1,156 @@
+body{
+    background-image: url("fotos/bg.png");
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: inline-block;
+    background:sandybrown;
+    padding: 5px 8px 5px 5px;
+    position: fixed;
+    top: 0;
+    right: 5px;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 9999;
+    color: white;
+}
+
+.Nav1 {
+    border-right: solid 1px white;
+}
+
+.Nav2 {
+    border-right: solid 1px white;
+}
+
+.Container{
+    position: relative;
+    color: white;
+    margin: 0 auto;
+    top: 0;
+    width: 1300px;
+}
+
+.centered{
+    font-size: 60pt;
+    color: white;
+    letter-spacing: -10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 35px;
+    left: 40%;
+    
+}
+
+.centered2 {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 140px;
+    right: 42%;
+}
+
+.circle{
+    position: relative;
+    display: block;
+    margin: -35px auto;
+    width: 700px;
+}
+
+.Fotos{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.icon1{
+    position: absolute;
+    top: 150px;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.icon1:hover{
+    opacity: .5;
+}
+
+div a.activepage1 {
+    border-right: solid 1px white;
+}
+
+a:Link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:gray;
+}
+
+.me {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text {
+    text-align: center;
+    font-weight: normal;
+}
+
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+.kontakt {
+    font-weight: bolder;
+    color: darksalmon;
+    margin-left: 200px;
+}
+
+.text {
+    text-align: center;
+    font-weight: normal;
+}
+
+.formular {
+    background: khaki;
+    font-size: 9pt;
+    color: black;
+    width: 200px;
+    padding: 5px 5px 20px 5px;
+    margin-left: 200px;
+}
+
+.formular2 {
+    background: khaki;
+    font-size: 9pt;
+    color: grey;
+    width: 350px;
+    padding: 5px 5px 20px 5px;
+    margin-left: 200px;
+}
+
+.datenschutz {
+    font-size: 9pt;
+    color: lightgray;
+    margin-left: 200px;
+}
+
+.absenden {
+    background: lightgrey;
+    font-size: 9px;
+    color: black;
+    width: 70px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 200px;
+}
+
+div a.activepage1 {
+    color: black;
+    font-weight: bolder;
+}
