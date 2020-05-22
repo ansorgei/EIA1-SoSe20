@@ -1,0 +1,29 @@
+body {
+    background-image: url("fotos/bg7.png");
+}
+
+section {
+    height: 400px;
+    width: 600px;
+    margin-top: 300px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+}
+
+section>.band {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+section>iframe {
+    position: absolute;
+    height: 310px;
+    width: 450px;
+    right: 70px;
+    left: 70px;
+    top: 40px;
+}

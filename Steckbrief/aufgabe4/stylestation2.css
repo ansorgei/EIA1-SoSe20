@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(fotos/wrapperbg2.png), url(fotos/bg2.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.überschrift {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 450px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+img[alt=muschel1] {
+    display: inline-block;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 240px;
+}
+
+img[alt=muschel2] {
+    display: inline-block;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 430px;
+}
+
+img[alt=muschel3] {
+    display: inline-block;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 610px;
+}
+
+.muschel:hover {
+    opacity: 0;
+}
+.perle:hover {
+    opacity: 1;
+}
+
+.perle {
+    opacity: 0;
+}
