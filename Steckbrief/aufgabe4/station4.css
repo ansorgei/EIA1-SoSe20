@@ -1,0 +1,53 @@
+body {
+    background-image: url("fotos/bg4.png");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: auto;
+}
+
+.überschrift {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+form {
+    color: white;
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: -290px;
+    margin-right: auto;
+}
+
+#user {
+    padding: 0 200px 0px 0;
+}
+
+#grüße {
+    padding: 0 200px 70px 0;
+}
+
+label, input {
+    display: inline-block;
+    margin-bottom: 5px;
+}

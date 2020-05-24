@@ -1,0 +1,72 @@
+body {
+    background-image: url(fotos/bg5.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 200px;
+}
+
+.überschrift {
+    display: inline-block;
+    color: white;
+    font-size: 27px;
+    position: absolute;
+    font-weight: bolder;
+    text-align: left;
+    margin-top: -100px;
+    margin-left: -20px;
+    transform: translate(-50%, -50%);
+}
+
+.column-left {
+    position: absolute;
+    float: left;
+    width: 130px;
+    margin-top: -20px;
+    margin-left: -170px;
+    text-align: center;
+}
+
+.column-middle {
+    position: absolute;
+    float: left;
+    width: 130px;
+    margin-top: -20px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.column-right {
+    position: absolute;
+    float: left;
+    width: 160px;
+    margin-top: -20px;
+    margin-left: 160px;
+    text-align: center;
+}
+
+.column-down-left {
+    position: absolute;
+    float: left;
+    width: 230px;
+    margin-top: 100px;
+    margin-left: -130px;
+    text-align: center;
+}
+
+.column-down-right {
+    position: absolute;
+    float: left;
+    width: 240px;
+    margin-top: 100px;
+    margin-left: 130px;
+    text-align: center;
+}
