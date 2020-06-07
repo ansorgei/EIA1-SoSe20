@@ -1,3 +1,4 @@
+window.addEventListener("load", function() {
 var afr08: number = 1028;
 var afr18: number = 1235.5;
 var sa08: number = 1132.6;
@@ -74,7 +75,7 @@ function eurfunction() {
 }
 
 function nafunction() {
-    document.getElementById("heading")?.innerHTML = "Carbon Dioxide Emission in North America";
+    document.getElementById("heading").innerHTML = "Carbon Dioxide Emission in North America";
     document.getElementById("eur1").innerHTML = "16274.1";
     document.getElementById("eur2").innerHTML = "19%";
     document.getElementById("eur3").innerHTML = "147%";
@@ -83,7 +84,7 @@ function nafunction() {
 }
 
 function safunction() {
-    ocument.getElementById("heading")?.innerHTML = "Carbon Dioxide Emissions in South America";
+    document.getElementById("heading").innerHTML = "Carbon Dioxide Emissions in South America";
     document.getElementById("eur1").innerHTML = "1261.5";
     document.getElementById("eur2").innerHTML = "4%";
     document.getElementById("eur3").innerHTML = "129%";
@@ -120,11 +121,10 @@ function ausfunction() {
 
 }
 
-window.addEventListener("load", function() {
-    document.querySelector(".europe")?.addEventListener("click", eurfunction);
-    document.querySelector(".northamerica")?.addEventListener("click", nafunction);
-    document.querySelector(".southamerica")?.addEventListener("click", safunction);
-    document.querySelector(".africa")?.addEventListener("click", afrfunction);
-    document.querySelector(".asia")?.addEventListener("click", asiafunction);
-    document.querySelector(".australia")?.addEventListener("click", ausfunction);
-})
+document.querySelector(".europe").addEventListener("click", eurfunction);
+document.querySelector(".northamerica").addEventListener("click", nafunction);
+document.querySelector(".southamerica").addEventListener("click", safunction);
+document.querySelector(".africa").addEventListener("click", afrfunction);
+document.querySelector(".asia").addEventListener("click", asiafunction);
+document.querySelector(".australia").addEventListener("click", ausfunction);
+});
