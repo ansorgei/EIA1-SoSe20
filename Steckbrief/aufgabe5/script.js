@@ -52,4 +52,60 @@ console.log("Die Emission von Australien sind: " + au18 + "kg CO2");
 console.log("Relativ zur Gesamtemission der Welt verursacht Australien damit " + au18ge + "%");
 console.log("Für Australien hat sich 2018 im Vergleich zu 2008 die Emission um " + aup + "verändert");
 console.log("2018 im Vergleich zu 2008 sind das " + au1808 + "kg CO2");
+function eurfunction() {
+    document.getElementById("heading").innerHTML = "Carbon Dioxide Emissions in Europe";
+    document.getElementById("eur1").innerHTML = "4209.3";
+    document.getElementById("eur2").innerHTML = "14%";
+    document.getElementById("eur3").innerHTML = "-15%";
+    document.getElementById("eur4").innerHTML = "-756kg";
+    document.querySelector(".chartwrapper .chart").setAttribute("style", "height: 14%");
+}
+function nafunction() {
+    document.getElementById("heading")?.innerHTML = "Carbon Dioxide Emission in North America";
+    document.getElementById("eur1").innerHTML = "16274.1";
+    document.getElementById("eur2").innerHTML = "19%";
+    document.getElementById("eur3").innerHTML = "147%";
+    document.getElementById("eur4").innerHTML = "9673.7kg";
+    document.querySelector(".chartwrapper .chart").setAttribute("style", "height: 19%");
+}
+function safunction() {
+    ocument.getElementById("heading")?.innerHTML = "Carbon Dioxide Emissions in South America";
+    document.getElementById("eur1").innerHTML = "1261.5";
+    document.getElementById("eur2").innerHTML = "4%";
+    document.getElementById("eur3").innerHTML = "129%";
+    document.getElementById("eur4").innerHTML = "11.38kg";
+    document.querySelector(".chartwrapper .chart").setAttribute("style", "height: 4%");
+}
+function afrfunction() {
+    document.getElementById("heading").innerHTML = "Carbon Dioxide Emissions in Africa";
+    document.getElementById("eur1").innerHTML = "1235.5";
+    document.getElementById("eur2").innerHTML = "4%";
+    document.getElementById("eur3").innerHTML = "0.2%";
+    document.getElementById("eur4").innerHTML = "207.5kg";
+    document.querySelector(".chartwrapper .chart").setAttribute("style", "height: 4%");
+}
+function asiafunction() {
+    document.getElementById("heading").innerHTML = "Carbon Dioxide Emissions in Asia";
+    document.getElementById("eur1").innerHTML = "16274.1";
+    document.getElementById("eur2").innerHTML = "50%";
+    document.getElementById("eur3").innerHTML = "0.26%";
+    document.getElementById("eur4").innerHTML = "3319kg";
+    document.querySelector(".chartwrapper .chart").setAttribute("style", "height: 50%");
+}
+function ausfunction() {
+    document.getElementById("heading").innerHTML = "Carbon Dioxide Emissions in Australia";
+    document.getElementById("eur1").innerHTML = "2100.5";
+    document.getElementById("eur2").innerHTML = "7%";
+    document.getElementById("eur3").innerHTML = "5.39%";
+    document.getElementById("eur4").innerHTML = "107.5kg";
+    document.querySelector(".chartwrapper .chart").setAttribute("style", "height: 7%");
+}
+window.addEventListener("load", function () {
+    document.querySelector(".europe")?.addEventListener("click", eurfunction);
+    document.querySelector(".northamerica")?.addEventListener("click", nafunction);
+    document.querySelector(".southamerica")?.addEventListener("click", safunction);
+    document.querySelector(".africa")?.addEventListener("click", afrfunction);
+    document.querySelector(".asia")?.addEventListener("click", asiafunction);
+    document.querySelector(".australia")?.addEventListener("click", ausfunction);
+});
 //# sourceMappingURL=script.js.map

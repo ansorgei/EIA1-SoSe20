@@ -23,3 +23,44 @@ footer p {
     font-size: 10px;
     opacity: .5;
 }
+
+.europe:hover {
+    opacity: .5;
+}
+
+.northamerica:hover {
+    opacity: .5;
+}
+
+.southamerica:hover {
+    opacity: .5;
+}
+
+.africa:hover {
+    opacity: .5;
+}
+
+.asia:hover {
+    opacity: .5;
+}
+
+.australia:hover {
+    opacity: .5;
+}
+
+.chartwrapper {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.chartwrapper .chart {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    transition: 1s;
+}
