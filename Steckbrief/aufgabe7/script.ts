@@ -10,22 +10,60 @@ window.addEventListener("load", function () {
     document.querySelector("#but7").addEventListener("click", function () { playSample(6); });
     document.querySelector("#but8").addEventListener("click", function () { playSample(7); });
     document.querySelector("#but9").addEventListener("click", function () { playSample(8); });
-    document.querySelector("#play")?.addEventListener("click", function () {beat;});
-    function playSample(soundplay) {
+    document.querySelector("#play2").addEventListener("click", play );
+    document.querySelector("#trash").addEventListener("click", trash )
+
+
+    function play () {
+        var play = document.querySelector("#play2");
+        if (play.getAttribute("class") == "fas fa-play") {
+            play.setAttribute("class", "fas fa-pause");
+            playbeats();
+        } 
+        else {
+            play2.className = "fas fa-play play-button";
+            clearInterval(beatInterval);
+        }
+     }
+    function trash () {
+        beats = [];
+
+        function playSample(soundplay) {
         var sound = new Audio(allsamples[soundplay]);
-        sound.play();
-
+        sound.play(sound);
         
-    }
-    function beat () {
-    setInterval (function () {
-        playSample(4);
-        playSample(5);
-        playSample(8);
-    },           300);
-    }
-    document.querySelector("#play").addEventListener("click", beat);
-}
 
-}});
+        var beat1 = ["mp3/kick.mp3", "mp3/snare.mp3", "mp3/hihat.mp3"];
+        document.querySelector("#play2").addEventListener("click", function () { playbeats(beat1); });
+        function playbeats(beat) {
+            var i = 0;
+            //window.alert(anzahl);
+            setInterval(function () {
+                var Sample = new Audio(beat[i]);
+                Sample.play();
+                console.log(beat[i]);
+                i++;
+            },          500);
+        
+
+            var myinterval = setInterval(function() {
+            var sample = new Audio(beat[i]);
+            sample.play();
+            console.log(beat[i]);
+            i++;
+            if (i > 3) { i = 0; } //wenn i großer als 3 soll i wieder null werden
+
+        },                               500);
+        
+            window.addEventListener("load", function () {
+            document.querySelector("#trash").addEventListener("click", trash );
+
+    }); }
+
+
+    }});
+
+
+
+
 

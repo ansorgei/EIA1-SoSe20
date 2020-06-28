@@ -14,13 +14,51 @@ body {
     text-align: center;
 }
 
-#play {
+
+
+i.fas {
+    color: white;
+    width: 50px;
+}
+
+
+#play2 {
+    background-color: seagreen;
+    text-align: center;
+    border-radius: 15px;
+    padding: 50px 50px;
+}
+
+#stop {
+    background-color: seagreen;
+    text-align: center;
+    border-radius: 15px;
+    padding: 50px 50px;
+}
+
+#microphone {
+    background-color: seagreen;
+    text-align: center;
+    border-radius: 15px;
+    padding: 50px 50px;
+}
+
+#trash {
+    background-color: seagreen;
+    text-align: center;
+    border-radius: 15px;
+    padding: 50px 50px;
+}
+
+#play2:hover {
     background-color: yellowgreen;
-    border-radius: 10px;
-    top: 10px;
 }
-
-#play:hover {
-    background-color:seagreen;
+#stop:hover {
+    background-color: yellowgreen;
 }
-
+#microphone:hover {
+    background-color: yellowgreen;
+}
+#trash:hover {
+    background-color: yellowgreen;
+}
